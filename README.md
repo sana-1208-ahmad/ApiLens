@@ -3,6 +3,9 @@
 API Lens is a client-side workbench for exploring HTTP Archive (HAR) captures. It parses captured requests in the browser, catalogs endpoints, visualizes host relationships, and surfaces heuristic security observations without uploading capture data to an API Lens backend.
 
 > **Privacy reminder:** HAR files often contain session cookies, API tokens, personal information, and internal URLs. The parser redacts common sensitive fields, but redaction is heuristic rather than a guarantee. Review captures and exported reports before sharing or publishing them.
+>
+> ##live link
+> https://apilens-drab.vercel.app/
 
 ## Features
 
