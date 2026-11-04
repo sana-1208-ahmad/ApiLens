@@ -1,0 +1,48 @@
+# Dependencies and build output
+node_modules/
+dist/
+build/
+coverage/
+.vite/
+.vercel/
+
+# Environment files and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+*.cer
+*.der
+*.p8
+*.token
+credentials.json
+*.credentials
+*.credentials.*
+secrets.*
+*.secret
+*.secret.*
+
+# HAR captures may contain credentials or personal data. Keep only the
+# reviewed synthetic fixture required by the automated tests.
+*.har
+!api-lens-sample-test.har
+
+# Logs and temporary files
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+*.tmp
+*.temp
+
+# Operating system and editor files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.idea/
+.vscode/
